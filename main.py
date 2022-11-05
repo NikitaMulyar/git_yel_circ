@@ -25,8 +25,8 @@ class Example(QMainWindow):
 
     def run(self, qp):
         qp.setBrush(QColor(255, 255, 0))
-        a = randint(50, 400)
         b = randint(50, 400)
+        a = randint(50, 400)
         qp.drawEllipse(100, 100, a, a)
         qp.drawEllipse(550, 100, b, b)
 
